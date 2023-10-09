@@ -1,0 +1,75 @@
+PROPUESTA DE TRABAJO FINAL DESARROLLO WEB CON NUEVAS TECNOLOGÍAS
+John Doe, johndoe@gmail.com 
+Jane Doe, janedoe@gmail.com 
+1. Introducción
+Dadas las necesidades actuales del mercado toda PYME u organización debe contar con presencia en la Web para hacerse visible frente al mundo.
+Dado lo anterior, se desea desarrollar un módulo de catálogo de productos de bisutería, para la página Web desarrollada en la entrega anterior.
+2. Objetivos
+1. Dar a conocer en la Web la PYME familiar, ya que se cuenta con diferentes líneas de productos con elaboración artesanal.
+2. Ampliar el diseño de la página Web propuesto en la entrega anterior (Web con Dom en React).
+3. Desarrollar para esta practica el catalogo del emprendimiento de la bisutería implementando la adición a un carrito de compras.
+3. Elementos generados para la construcción de la aplicación web
+a. Dado que la actividad se realizará individualmente, no se tomará en cuenta este punto y se manejará el proyecto en el siguiente link de GitHub.
+https://github.com/SERGIO-ANDRES-SACHEZ-OSORNO/Desarrollo-Web-PYME.git
+
+
+
+Se describe cuál es el GitHub donde se almacenará la solución final de la página web que se realizará por cada grupo.   Este proyecto lo deben realizar los integrantes del grupo, es decir, en el GitHub, se deben evidenciar los aportes de los integrantes al proyecto.  Esto se puede evidenciar creando ramas en el repositorio y al final unir las ramas en la rama principal, para obtener la solución final.  También existe la posibilidad de realizar el trabajo colaborativo en línea usando CodeSandBox
+4. Cronograma planteado para el diseño de la propuesta de trabajo colaborativo
+
+	
+NUMERO ACTIVIDAD - DESCRIPCIÓNFECHA1* Definir el mockup del módulo a implantar.
+* Recolectar las fotografías que llevará el módulo. 
+* Realizar la planificación en https://monday.com/lang/es/24/10/20232Iniciar el modelo grafico de la página con su respectivo módulo CSS, imágenes y un módulo para cada sección del HTML.31/10/20233Entregar la página diseñada sin funcionalidades7/11/20234Inicio en la implementación  del módulo JavaScrip.14/11/20235Entrega del módulo desarrollado21/11/2023Tabla 1.  Cronograma implementado para el diseño de la actividad de trabajo colaborativo
+
+Planificación:
+	Para este punto se realizará la planificación en:
+https://monday.com/lang/es/
+Adicionalmente, se plantea el uso de cualquiera de los siguientes utilidades en línea: 
+https://trello.com/es
+https://kanbantool.com/es/
+https://horas.io/
+https://monday.com/lang/es/
+Para gestionar el proyecto, el flujo de trabajo semanal, verificar y controlar las tareas. Sin embargo, se da la posibilidad de implementar otras herramientas TIC para que controlen sus actividades semanales, motivando la autogestión del tiempo y tareas grupales.
+
+
+Para el desarrollo de las actividades se sugiere a los grupos generar un espacio de trabajo en https://codesandbox.io/ plataforma en la cual podrán almacenar su proyecto, los participantes pueden generar un trabajo en simultáneo el cual les permite generar aprendizaje conjunto en la construcción de la web ,ya que esta herramienta, facilita el trabajo de un mismo proyecto en diferentes terminales, reduciendo tiempos de construcción, simplifica el avance de las actividades y permite definir las tareas sin necesidad de esperar otros procesos alternos.
+
+
+Rúbrica de evaluación
+Obligatorias:
+* La página web debe ser funcional como mínimo al 70% de lo planteado en la propuesta.
+* La página debe ser construida por los integrantes del grupo. Se debe evidenciar en Gitub, CodeSandBox los aportes de cada integrante.
+* El código fuente de la página está en un repositorio de GitHub.
+* La página debe contener mínimo un archivo CSS (sin usar librerías) que se le aplique a un módulo.
+* Las funciones usadas en su totalidad deben ser tipo flecha.
+* La página usa Flexbox para distribuir el espacio de la página.
+* La solución debe poseer como mínimo 3 módulos.
+* Sustentación de la solución.
+Opcionales
+* Usa APIs para obtener datos que se muestran en la página. (50 oros adicionales)
+* Usa librerías como Material UI, Styled Components en la construcción del CSS de la página (50 0ros adicionales).
+* Usa Hooks en su aplicación (50 oros adicionales).
+* Usa CodeSandBox para el trabajo colaborativo del grupo (50 oros adicionales).
+* Página posee como mínimo 7 módulos (50 oros adicionales).
+* Usa React Router en su aplicación (50 oros adicionales).
+* La página posee temas avanzados de React (200 oros adicionales)
+
+
+
+
+
+
+
+
+
+
+
+
+
+Actividades
+
+
+
+
+
