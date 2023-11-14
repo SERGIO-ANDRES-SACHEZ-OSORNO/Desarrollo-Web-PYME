@@ -1,21 +1,15 @@
-import logo from './logo.svg';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import { AppComponent } from './app.component';
-import {inde}
 import './App.css';
-import { Routes } from 'react-router';
-
+import { Route, Routes } from 'react-router-dom';
+const Home =():Element => <h1>Home</h1>
+const SearchPage = ():Element => <h1>SearchPage</h1>
 function App() {
   return (
     <div className="App">
-      <browserRouter>
-        <Routes>
-          <Route path="/" element={<Principal />} ></Route>
-          <Route path="/Formulario" element={<Formulario />}> </Route>
-        </Routes>
-      </browserRouter>
+     <Routes>
+      <Route path='/' element={<Home/>}/>
+      <Route path='/SearchPage' element={<SearchPage/>}/>
+     </Routes>  
     </div>
   );
 }
-
 export default App;
