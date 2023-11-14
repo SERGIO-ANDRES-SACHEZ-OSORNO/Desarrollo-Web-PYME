@@ -1,21 +1,39 @@
+import { name } from 'tar/lib/types';
 import './App.css';
-import {Link, Route, Routes } from 'react-router-dom';
+import {Link, Route, Routes, useParams } from 'react-router-dom';
+
+
+
 const Home =():Element => <h1>Home</h1> //ok
 
 const SearchPage = ():Element =>{  //ok
-  const Tacos = '/Tacos'//ok
+  const Tacos = [
+    'Cochinita',
+    'Chili',
+    'Carnita',
+    'Quesadilla'
+  ]
+
   return(  //ok
-  <div>
-
+  <section>
     <h1>SearchPage</h1>
-    <Link to={Tacos}>tacos</Link>
-  </div>
-
-  )
-  
+    <ul>
+      {Tacos.map(Tacos =>(
+      <li key={name}><Link to={`/Tacos/${Tacos}`}>{Tacos}</Link></li>))}      
+    </ul>  
+  </section>
+  )  
 } 
-const Tacos = ():Element => <h1>Tacos</h1>  //ok
-
+const Tacos = ():Element => {
+  const {name}= useParams()
+  return(
+    <section>
+    <h1>Tacos</h1>
+    {name}
+    
+  </section> 
+  )  
+}
 function App() {
   return (
     <div className="App">
@@ -32,7 +50,7 @@ function App() {
      <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path='/SearchPage' element={<SearchPage/>}/>
-      <Route path='/Tacos' element={<Tacos/>}/>
+      <Route path='/Tacos/:name' element={<Tacos/>}/>
      </Routes>  
     </div>
   );

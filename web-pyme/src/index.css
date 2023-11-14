@@ -27,3 +27,12 @@ nav ul{
 nav a{
   text-decoration: none;
 }
+
+SearchPage ul li{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+  padding: 16px;
+  background: #dcf1ff;
+}
