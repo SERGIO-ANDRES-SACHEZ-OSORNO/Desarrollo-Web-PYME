@@ -1,0 +1,18 @@
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: blue;
+
+}
+#menu{
+    font-size: 20px;  
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
