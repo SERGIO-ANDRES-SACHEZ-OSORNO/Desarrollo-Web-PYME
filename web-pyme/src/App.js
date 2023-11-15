@@ -1,14 +1,13 @@
 import React from 'react';
 import './App.css';
-import Header from './components/header'
 import Inicio from './pages/start'
 import Store from './pages/store'
 import {Route, BrowserRouter as Router, Routes} from 'react-router-dom';
-
+import Headers from './components/header'
 function App(){
   return (
     <Router>      
-      <Header/>      
+      <Headers/>      
       <Routes>
         <Route path="./pages" element={<Inicio/>}> Inicio </Route>
         <Route path="./pages" element={<Store/>}> Tienda </Route>
